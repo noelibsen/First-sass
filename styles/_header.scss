@@ -1,0 +1,31 @@
+.main-header{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70px;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-width: 600px;
+    margin-right: 70px;
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+    }
+    &__links{
+        font-size: 20px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 23px;
+        letter-spacing: -0.3461538851261139px;
+        text-align: left;
+        text-decoration: none;
+        margin-left: 20px;  
+        color: #111111;
+    }
+}
